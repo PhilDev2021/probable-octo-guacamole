@@ -61,6 +61,26 @@ class Home extends StatelessWidget {
                     ),
                   ],
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                padding: EdgeInsets.all(10),
+                color: Colors.white,
+                child: Row(
+                  children: [
+                    Icon(Icons.phone),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      email,
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.teal[500],
+                      ),
+                    ),
+                  ],
+                ),
               )
             ],
           ),
