@@ -11,9 +11,10 @@ void main() {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var name = "Rian Barriga";
-    var position = "Full Stack Developer";
+    String name = "Rian Barriga";
+    String position = "Full Stack Developer";
     String email = "rian@nodle.co";
+    String phone = "+639314467412";
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
@@ -73,7 +74,7 @@ class Home extends StatelessWidget {
                       width: 10,
                     ),
                     Text(
-                      email,
+                      phone,
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.teal[500],
