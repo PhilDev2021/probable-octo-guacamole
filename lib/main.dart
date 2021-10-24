@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
         child: Container(
           height: 100,
           width: 100,
+          margin: EdgeInsets.all(10.0),
           color: Colors.white,
           child: Image(
             image: NetworkImage(
