@@ -49,26 +49,10 @@ class Home extends StatelessWidget {
                 email: email,
                 iconic: Icons.email,
               ),
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                padding: EdgeInsets.all(10),
-                color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(Icons.phone),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      phone,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.teal[500],
-                      ),
-                    ),
-                  ],
-                ),
-              )
+              barDetail(
+                email: phone,
+                iconic: Icons.phone,
+              ),
             ],
           ),
         ),
