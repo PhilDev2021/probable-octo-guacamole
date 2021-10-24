@@ -45,25 +45,9 @@ class Home extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-                padding: EdgeInsets.all(10),
-                color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(Icons.email),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      email,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.teal[500],
-                      ),
-                    ),
-                  ],
-                ),
+              barDetail(
+                email: email,
+                iconic: Icons.email,
               ),
               Container(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
@@ -88,6 +72,40 @@ class Home extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class barDetail extends StatelessWidget {
+  const barDetail({
+    @required this.iconic,
+    @required this.email,
+  });
+
+  final String email;
+  final IconData iconic;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+      padding: EdgeInsets.all(10),
+      color: Colors.white,
+      child: Row(
+        children: [
+          Icon(iconic),
+          SizedBox(
+            width: 10,
+          ),
+          Text(
+            email,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.teal[500],
+            ),
+          ),
+        ],
       ),
     );
   }
