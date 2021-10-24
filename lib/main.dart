@@ -36,6 +36,13 @@ class Home extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              SizedBox(
+                height: 20,
+                width: 150,
+                child: Divider(
+                  color: Colors.teal[100],
+                ),
+              ),
               Text(
                 position.toUpperCase(),
                 style: TextStyle(
