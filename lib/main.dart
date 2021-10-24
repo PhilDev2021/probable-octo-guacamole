@@ -74,7 +74,6 @@ class BarDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-      color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: ListTile(
