@@ -11,7 +11,7 @@ void main() {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    String name = "Rian Barriga";
+    String name = "Nair Drops";
     String position = "Full Stack Developer";
     String email = "rian@cool.co";
     String phone = "+639314467412";
