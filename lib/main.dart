@@ -41,6 +41,11 @@ class Home extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              Container(
+                child: Row(
+                  children: [Icon(Icons.verified_user)],
+                ),
+              )
             ],
           ),
         ),
