@@ -15,21 +15,29 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Container(
+              height: 100,
+              width: 100,
               child: Text("Text 1"),
               color: Colors.red,
             ),
             Container(
+              height: 100,
+              width: 100,
               child: Text("Text 2"),
               color: Colors.green,
             ),
             Container(
+              height: 100,
+              width: 100,
               child: Text("Text 3"),
               color: Colors.blue,
             ),
             Container(
+              height: 100,
+              width: 100,
               child: Text("Text 4"),
               color: Colors.yellow,
             ),
