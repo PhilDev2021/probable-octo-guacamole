@@ -16,31 +16,33 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CircleAvatar(
-              radius: 50,
-              backgroundColor: Colors.red,
-              foregroundImage: AssetImage("images/rian.jpg"),
-            ),
-            Text(
-              name,
-              style: TextStyle(
-                fontFamily: "Pacifico",
-                fontSize: 40,
-                color: Colors.white,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                radius: 50,
+                backgroundColor: Colors.red,
+                foregroundImage: AssetImage("images/rian.jpg"),
               ),
-            ),
-            Text(
-              position,
-              style: TextStyle(
-                fontFamily: "Source Sans Pro",
-                fontSize: 20,
-                color: Colors.white,
+              Text(
+                name,
+                style: TextStyle(
+                  fontFamily: "Pacifico",
+                  fontSize: 40,
+                  color: Colors.white,
+                ),
               ),
-            ),
-          ],
+              Text(
+                position,
+                style: TextStyle(
+                  fontFamily: "Source Sans Pro",
+                  fontSize: 20,
+                  color: Colors.white,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
