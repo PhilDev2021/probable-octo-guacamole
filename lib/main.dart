@@ -35,6 +35,8 @@ class Home extends StatelessWidget {
               position,
               style: TextStyle(
                 fontFamily: "Source Sans Pro",
+                fontSize: 20,
+                color: Colors.white,
               ),
             ),
           ],
