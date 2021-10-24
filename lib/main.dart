@@ -43,7 +43,9 @@ class Home extends StatelessWidget {
               ),
               Container(
                 child: Row(
-                  children: [Icon(Icons.verified_user)],
+                  children: [
+                    Icon(Icons.verified_user),
+                  ],
                 ),
               )
             ],
