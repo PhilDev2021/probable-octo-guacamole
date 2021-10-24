@@ -43,13 +43,18 @@ class Home extends StatelessWidget {
                 ),
               ),
               Container(
+                color: Colors.white,
                 child: Row(
                   children: [
-                    Icon(Icons.verified_user),
+                    Icon(Icons.email),
+                    SizedBox(
+                      width: 10,
+                    ),
                     Text(
                       email,
                       style: TextStyle(
                         fontSize: 20,
+                        color: Colors.teal[500],
                       ),
                     ),
                   ],
