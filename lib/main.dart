@@ -16,7 +16,14 @@ class Home extends StatelessWidget {
       body: SafeArea(
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [],
+          children: [
+            CircleAvatar(
+              child: Image(
+                image: NetworkImage(
+                    "https://avatars.githubusercontent.com/u/43643225?v=4"),
+              ),
+            )
+          ],
         ),
       ),
     );
