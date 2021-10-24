@@ -18,10 +18,8 @@ class Home extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             CircleAvatar(
-              child: Image(
-                image: NetworkImage(
-                    "https://avatars.githubusercontent.com/u/43643225?v=4"),
-              ),
+              radius: 50,
+              backgroundColor: Colors.red,
             )
           ],
         ),
