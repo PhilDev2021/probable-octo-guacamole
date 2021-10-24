@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               backgroundColor: Colors.red,
-              foregroundImage: AssetImage("images/rian.jpeg"),
+              foregroundImage: AssetImage("images/rian.jpg"),
             )
           ],
         ),
