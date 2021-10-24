@@ -40,6 +40,8 @@ class Home extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "Source Sans Pro",
                   fontSize: 20,
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
@@ -57,7 +59,6 @@ class Home extends StatelessWidget {
                       email,
                       style: TextStyle(
                         fontSize: 20,
-                        letterSpacing: 2.5,
                         color: Colors.teal[500],
                       ),
                     ),
