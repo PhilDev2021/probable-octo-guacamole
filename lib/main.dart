@@ -31,7 +31,6 @@ class Home extends StatelessWidget {
             ),
             Container(
               height: 100,
-              width: 100,
               child: Text("Text 3"),
               color: Colors.blue,
             ),
