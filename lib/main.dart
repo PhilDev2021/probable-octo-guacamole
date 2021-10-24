@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     String name = "Nair Drops";
     String position = "Full Stack Developer";
-    String email = "rian@cool.co";
+    String email = "nair@cool.co";
     String phone = "+639314467412";
     return Scaffold(
       backgroundColor: Colors.teal,
