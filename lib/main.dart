@@ -36,7 +36,7 @@ class Home extends StatelessWidget {
                 ),
               ),
               Text(
-                position,
+                position.toUpperCase(),
                 style: TextStyle(
                   fontFamily: "Source Sans Pro",
                   fontSize: 20,
