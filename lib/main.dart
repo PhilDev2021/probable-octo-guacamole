@@ -14,16 +14,22 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-        child: Container(
-          height: 100,
-          width: 100,
-          margin: EdgeInsets.all(10.0),
-          color: Colors.white,
-          child: Image(
-            image: NetworkImage(
-              "https://avatars.githubusercontent.com/u/43643225?v=4",
+        child: Column(
+          children: [
+            Container(
+              child: Text("Text 1"),
+              color: Colors.red,
             ),
-          ),
+            Container(
+              child: Text("Text 2"),
+            ),
+            Container(
+              child: Text("Text 3"),
+            ),
+            Container(
+              child: Text("Text 4"),
+            ),
+          ],
         ),
       ),
     );
