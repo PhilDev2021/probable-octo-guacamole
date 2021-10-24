@@ -45,11 +45,11 @@ class Home extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              barDetail(
+              BarDetail(
                 email: email,
                 iconic: Icons.email,
               ),
-              barDetail(
+              BarDetail(
                 email: phone,
                 iconic: Icons.phone,
               ),
@@ -61,8 +61,8 @@ class Home extends StatelessWidget {
   }
 }
 
-class barDetail extends StatelessWidget {
-  const barDetail({
+class BarDetail extends StatelessWidget {
+  const BarDetail({
     @required this.iconic,
     @required this.email,
   });
