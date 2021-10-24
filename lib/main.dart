@@ -78,7 +78,10 @@ class BarDetail extends StatelessWidget {
       color: Colors.white,
       child: Row(
         children: [
-          Icon(iconic),
+          Icon(
+            iconic,
+            color: Colors.teal[600],
+          ),
           SizedBox(
             width: 10,
           ),
