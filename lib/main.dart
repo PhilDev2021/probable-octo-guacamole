@@ -12,6 +12,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var name = "Rian Barriga";
+    var position = "Full Stack Developer";
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
@@ -30,6 +31,7 @@ class Home extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
+            Text(position, style: TextStyle(fontFamily: ),),
           ],
         ),
       ),
