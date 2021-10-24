@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
               "John Doe",
               style: TextStyle(
                 fontFamily: "Pacifico",
-                fontSize: 24,
+                fontSize: 40,
                 color: Colors.white,
               ),
             ),
