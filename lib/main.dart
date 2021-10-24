@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               child: Text("Text 1"),
