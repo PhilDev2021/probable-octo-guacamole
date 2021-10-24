@@ -73,7 +73,7 @@ class BarDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+      margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
       padding: EdgeInsets.all(10),
       color: Colors.white,
       child: Row(
