@@ -14,14 +14,19 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+        child: Column(
           children: [
             CircleAvatar(
               radius: 50,
               backgroundColor: Colors.red,
               foregroundImage: AssetImage("images/rian.jpg"),
-            )
+            ),
+            Text(
+              "John Doe",
+              style: TextStyle(
+                fontSize: 14,
+              ),
+            ),
           ],
         ),
       ),
