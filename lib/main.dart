@@ -76,24 +76,19 @@ class BarDetail extends StatelessWidget {
       margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
       color: Colors.white,
       child: Padding(
-        padding: const EdgeInsets.all(25.0),
-        child: Row(
-          children: [
-            Icon(
-              iconic,
-              color: Colors.teal[600],
+        padding: const EdgeInsets.all(10.0),
+        child: ListTile(
+          leading: Icon(
+            iconic,
+            color: Colors.teal[600],
+          ),
+          title: Text(
+            email,
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.teal[500],
             ),
-            SizedBox(
-              width: 10,
-            ),
-            Text(
-              email,
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.teal[500],
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );
