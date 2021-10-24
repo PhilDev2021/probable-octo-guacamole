@@ -20,6 +20,8 @@ class Home extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               backgroundColor: Colors.red,
+              backgroundImage: NetworkImage(
+                  "https://avatars.githubusercontent.com/u/43643225?v=4"),
             )
           ],
         ),
