@@ -72,27 +72,29 @@ class BarDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Card(
       margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-      padding: EdgeInsets.all(10),
       color: Colors.white,
-      child: Row(
-        children: [
-          Icon(
-            iconic,
-            color: Colors.teal[600],
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            email,
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.teal[500],
+      child: Padding(
+        padding: const EdgeInsets.all(25.0),
+        child: Row(
+          children: [
+            Icon(
+              iconic,
+              color: Colors.teal[600],
             ),
-          ),
-        ],
+            SizedBox(
+              width: 10,
+            ),
+            Text(
+              email,
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.teal[500],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
