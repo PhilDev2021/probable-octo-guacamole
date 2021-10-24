@@ -19,7 +19,6 @@ class Home extends StatelessWidget {
           children: [
             Container(
               height: 100,
-              width: 100,
               child: Text("Text 1"),
               color: Colors.red,
             ),
