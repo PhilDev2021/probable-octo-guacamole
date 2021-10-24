@@ -13,6 +13,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     var name = "Rian Barriga";
     var position = "Full Stack Developer";
+    String email = "rian@nodle.co";
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
@@ -45,6 +46,12 @@ class Home extends StatelessWidget {
                 child: Row(
                   children: [
                     Icon(Icons.verified_user),
+                    Text(
+                      email,
+                      style: TextStyle(
+                        fontSize: 20,
+                      ),
+                    ),
                   ],
                 ),
               )
