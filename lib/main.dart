@@ -16,28 +16,7 @@ class Home extends StatelessWidget {
       body: SafeArea(
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Container(
-              height: 100,
-              child: Text("Text 1"),
-              color: Colors.red,
-            ),
-            Container(
-              height: 100,
-              child: Text("Text 2"),
-              color: Colors.green,
-            ),
-            Container(
-              height: 100,
-              child: Text("Text 3"),
-              color: Colors.blue,
-            ),
-            Container(
-              height: 100,
-              child: Text("Text 4"),
-              color: Colors.yellow,
-            ),
-          ],
+          children: [],
         ),
       ),
     );
