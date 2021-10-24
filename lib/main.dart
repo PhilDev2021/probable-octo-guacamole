@@ -22,12 +22,15 @@ class Home extends StatelessWidget {
             ),
             Container(
               child: Text("Text 2"),
+              color: Colors.green,
             ),
             Container(
               child: Text("Text 3"),
+              color: Colors.blue,
             ),
             Container(
               child: Text("Text 4"),
+              color: Colors.yellow,
             ),
           ],
         ),
