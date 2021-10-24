@@ -13,7 +13,18 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
-      body: Container(),
+      body: SafeArea(
+        child: Container(
+          height: 100,
+          width: 100,
+          color: Colors.white,
+          child: Image(
+            image: NetworkImage(
+              "https://avatars.githubusercontent.com/u/43643225?v=4",
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
