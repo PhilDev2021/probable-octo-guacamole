@@ -11,6 +11,7 @@ void main() {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var name = "Rian Barriga";
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
@@ -22,7 +23,7 @@ class Home extends StatelessWidget {
               foregroundImage: AssetImage("images/rian.jpg"),
             ),
             Text(
-              "John Doe",
+              name,
               style: TextStyle(
                 fontFamily: "Pacifico",
                 fontSize: 40,
